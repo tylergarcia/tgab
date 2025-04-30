@@ -1,0 +1,33 @@
+# Xcode build and caches
+build/
+DerivedData/
+
+# Xcode user data (layouts, breakpoints, schemes)
+*.xcuserdatad/
+xcuserdata/
+
+# Workspace data (keep shared schemes, ignore personal)
+*.xcworkspace/xcuserdatad/
+!*.xcworkspace/xcshareddata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# CocoaPods (if used)
+Pods/
+
+# Carthage (if used)
+Carthage/Build/
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Misc
+*.xcscmblueprint
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.DS_Store
